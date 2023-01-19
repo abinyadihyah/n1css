@@ -1773,6 +1773,40 @@
 .left--100 {
   left: -100%;
 }
+
+.owl-spacing__xs,
+.owl-spacing__s,
+.owl-spacing__m,
+.owl-spacing__l,
+.owl-spacing__l,
+.owl-spacing__xl,
+.owl-spacing__xxl,
+.owl-spacing__xxxl {
+  display: flex;
+  flex-direction: column;
+}
+.owl-spacing__xs > * + * {
+  margin-top: 0.3rem;
+}
+.owl-spacing__s > * + * {
+  margin-top: 0.5rem;
+}
+.owl-spacing__m > * + * {
+  margin-top: 1rem;
+}
+.owl-spacing__l > * + * {
+  margin-top: 2rem;
+}
+.owl-spacing__xl > * + * {
+  margin-top: 3rem;
+}
+.owl-spacing__xxl > * + * {
+  margin-top: 5rem;
+}
+.owl-spacing__xxl > * + * {
+  margin-top: 8rem;
+}
+
 @media only screen and (max-width: 1200px) {
   .lg\:block {
     display: block;
@@ -3548,6 +3582,38 @@
   }
   .lg\:left--100 {
     left: -100%;
+  }
+  .lg\:.owl-spacing__xs,
+  .lg\:owl-spacing__s,
+  .lg\:owl-spacing__m,
+  .lg\:owl-spacing__l,
+  .lg\:owl-spacing__l,
+  .lg\:owl-spacing__xl,
+  .lg\:owl-spacing__xxl,
+  .lg\:owl-spacing__xxxl {
+    display: flex;
+    flex-direction: column;
+  }
+  .lg\:owl-spacing__xs > * + * {
+    margin-top: 0.3rem;
+  }
+  .lg\:owl-spacing__s > * + * {
+    margin-top: 0.5rem;
+  }
+  .lg\:owl-spacing__m > * + * {
+    margin-top: 1rem;
+  }
+  .lg\:owl-spacing__l > * + * {
+    margin-top: 2rem;
+  }
+  .lg\:owl-spacing__xl > * + * {
+    margin-top: 3rem;
+  }
+  .lg\:owl-spacing__xxl > * + * {
+    margin-top: 5rem;
+  }
+  .lg\:owl-spacing__xxl > * + * {
+    margin-top: 8rem;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -5326,6 +5392,38 @@
   .md\:left--100 {
     left: -100%;
   }
+  .md\:.owl-spacing__xs,
+  .md\:owl-spacing__s,
+  .md\:owl-spacing__m,
+  .md\:owl-spacing__l,
+  .md\:owl-spacing__l,
+  .md\:owl-spacing__xl,
+  .md\:owl-spacing__xxl,
+  .md\:owl-spacing__xxxl {
+    display: flex;
+    flex-direction: column;
+  }
+  .md\:owl-spacing__xs > * + * {
+    margin-top: 0.3rem;
+  }
+  .md\:owl-spacing__s > * + * {
+    margin-top: 0.5rem;
+  }
+  .md\:owl-spacing__m > * + * {
+    margin-top: 1rem;
+  }
+  .md\:owl-spacing__l > * + * {
+    margin-top: 2rem;
+  }
+  .md\:owl-spacing__xl > * + * {
+    margin-top: 3rem;
+  }
+  .md\:owl-spacing__xxl > * + * {
+    margin-top: 5rem;
+  }
+  .md\:owl-spacing__xxl > * + * {
+    margin-top: 8rem;
+  }
 }
 @media only screen and (max-width: 768px) {
   .sm\:block {
@@ -7102,5 +7200,37 @@
   }
   .sm\:left--100 {
     left: -100%;
+  }
+  .sm\:.owl-spacing__xs,
+  .sm\:owl-spacing__s,
+  .sm\:owl-spacing__m,
+  .sm\:owl-spacing__l,
+  .sm\:owl-spacing__l,
+  .sm\:owl-spacing__xl,
+  .sm\:owl-spacing__xxl,
+  .sm\:owl-spacing__xxxl {
+    display: flex;
+    flex-direction: column;
+  }
+  .sm\:owl-spacing__xs > * + * {
+    margin-top: 0.3rem;
+  }
+  .sm\:owl-spacing__s > * + * {
+    margin-top: 0.5rem;
+  }
+  .sm\:owl-spacing__m > * + * {
+    margin-top: 1rem;
+  }
+  .sm\:owl-spacing__l > * + * {
+    margin-top: 2rem;
+  }
+  .sm\:owl-spacing__xl > * + * {
+    margin-top: 3rem;
+  }
+  .sm\:owl-spacing__xxl > * + * {
+    margin-top: 5rem;
+  }
+  .sm\:owl-spacing__xxl > * + * {
+    margin-top: 8rem;
   }
 }
