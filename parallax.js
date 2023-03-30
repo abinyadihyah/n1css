@@ -702,9 +702,9 @@ var Parallax = function () {
         }
 
         //layer.style.position = index ? 'absolute' : 'relative';
-        //layer.style.display = 'block';
+       // layer.style.display = 'block';
         //layer.style.left = 0;
-       //layer.style.top = 0;
+        //layer.style.top = 0;
 
         var depth = helpers.data(layer, 'depth') || 0;
         this.depthsX.push(helpers.data(layer, 'depth-x') || depth);
