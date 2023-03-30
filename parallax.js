@@ -701,8 +701,8 @@ var Parallax = function () {
           helpers.accelerate(layer);
         }
 
-        //layer.style.position = index ? 'absolute' : 'relative';
-       // layer.style.display = 'block';
+        layer.style.position = index ? 'absolute' : 'relative';
+       layer.style.display = 'block';
         //layer.style.left = 0;
         //layer.style.top = 0;
 
