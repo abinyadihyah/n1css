@@ -1874,49 +1874,49 @@ body {
   margin-left: 0 px;
 }
 .space-x-xs > * + * {
-  margin-left: 0.25 rem;
+  margin-left: 0.25rem;
 }
 .space-x-s > * + * {
-  margin-left: 0.5 rem;
+  margin-left: 0.5rem;
 }
 .space-x-m > * + * {
-  margin-left: 1 rem;
+  margin-left: 1rem;
 }
 .space-x-l > * + * {
-  margin-left: 2 rem;
+  margin-left: 2rem;
 }
 .space-x-xl > * + * {
-  margin-left: 3 rem;
+  margin-left: 3rem;
 }
 .space-x-xxl > * + * {
-  margin-left: 5 rem;
+  margin-left: 5rem;
 }
 .space-x-xxxl > * + * {
-  margin-left: 8 rem;
+  margin-left: 8rem;
 }
 .space-y-0 > * + * {
   margin-top: 0 px;
 }
 .space-y-xs > * + * {
-  margin-top: 0.25 rem;
+  margin-top: 0.25rem;
 }
 .space-y-s > * + * {
-  margin-top: 0.5 rem;
+  margin-top: 0.5rem;
 }
 .space-y-m > * + * {
-  margin-top: 1 rem;
+  margin-top: 1rem;
 }
 .space-y-l > * + * {
-  margin-top: 2 rem;
+  margin-top: 2rem;
 }
 .space-y-xl > * + * {
-  margin-top: 3 rem;
+  margin-top: 3rem;
 }
 .space-y-xxl > * + * {
-  margin-top: 5 rem;
+  margin-top: 5rem;
 }
 .space-y-xxxl > * + * {
-  margin-top: 8 rem;
+  margin-top: 8rem;
 }
 
 /* section 4 - layout */
@@ -4595,49 +4595,49 @@ body {
     margin-left: 0 px;
   }
   .lg\:space-x-xs > * + * {
-    margin-left: 0.25 rem;
+    margin-left: 0.25rem;
   }
   .lg\:space-x-s > * + * {
-    margin-left: 0.5 rem;
+    margin-left: 0.5rem;
   }
   .lg\:space-x-m > * + * {
-    margin-left: 1 rem;
+    margin-left: 1rem;
   }
   .lg\:space-x-l > * + * {
-    margin-left: 2 rem;
+    margin-left: 2rem;
   }
   .lg\:space-x-xl > * + * {
-    margin-left: 3 rem;
+    margin-left: 3rem;
   }
   .lg\:space-x-xxl > * + * {
-    margin-left: 5 rem;
+    margin-left: 5rem;
   }
   .lg\:space-x-xxxl > * + * {
-    margin-left: 8 rem;
+    margin-left: 8rem;
   }
   .lg\:space-y-0 > * + * {
     margin-top: 0 px;
   }
   .lg\:space-y-xs > * + * {
-    margin-top: 0.25 rem;
+    margin-top: 0.25rem;
   }
   .lg\:space-y-s > * + * {
-    margin-top: 0.5 rem;
+    margin-top: 0.5rem;
   }
   .lg\:space-y-m > * + * {
-    margin-top: 1 rem;
+    margin-top: 1rem;
   }
   .lg\:space-y-l > * + * {
-    margin-top: 2 rem;
+    margin-top: 2rem;
   }
   .lg\:space-y-xl > * + * {
-    margin-top: 3 rem;
+    margin-top: 3rem;
   }
   .lg\:space-y-xxl > * + * {
-    margin-top: 5 rem;
+    margin-top: 5rem;
   }
   .lg\:space-y-xxxl > * + * {
-    margin-top: 8 rem;
+    margin-top: 8rem;
   }
 
   /* responsive layout */
@@ -7133,49 +7133,49 @@ body {
     margin-left: 0 px;
   }
   .md\:space-x-xs > * + * {
-    margin-left: 0.25 rem;
+    margin-left: 0.25rem;
   }
   .md\:space-x-s > * + * {
-    margin-left: 0.5 rem;
+    margin-left: 0.5rem;
   }
   .md\:space-x-m > * + * {
-    margin-left: 1 rem;
+    margin-left: 1rem;
   }
   .md\:space-x-l > * + * {
-    margin-left: 2 rem;
+    margin-left: 2rem;
   }
   .md\:space-x-xl > * + * {
-    margin-left: 3 rem;
+    margin-left: 3rem;
   }
   .md\:space-x-xxl > * + * {
-    margin-left: 5 rem;
+    margin-left: 5rem;
   }
   .md\:space-x-xxxl > * + * {
-    margin-left: 8 rem;
+    margin-left: 8rem;
   }
   .md\:space-y-0 > * + * {
     margin-top: 0 px;
   }
   .md\:space-y-xs > * + * {
-    margin-top: 0.25 rem;
+    margin-top: 0.25rem;
   }
   .md\:space-y-s > * + * {
-    margin-top: 0.5 rem;
+    margin-top: 0.5rem;
   }
   .md\:space-y-m > * + * {
-    margin-top: 1 rem;
+    margin-top: 1rem;
   }
   .md\:space-y-l > * + * {
-    margin-top: 2 rem;
+    margin-top: 2rem;
   }
   .md\:space-y-xl > * + * {
-    margin-top: 3 rem;
+    margin-top: 3rem;
   }
   .md\:space-y-xxl > * + * {
-    margin-top: 5 rem;
+    margin-top: 5rem;
   }
   .md\:space-y-xxxl > * + * {
-    margin-top: 8 rem;
+    margin-top: 8rem;
   }
 
   /* responsive layout */
@@ -9671,49 +9671,49 @@ body {
     margin-left: 0 px;
   }
   .sm\:space-x-xs > * + * {
-    margin-left: 0.25 rem;
+    margin-left: 0.25rem;
   }
   .sm\:space-x-s > * + * {
-    margin-left: 0.5 rem;
+    margin-left: 0.5rem;
   }
   .sm\:space-x-m > * + * {
-    margin-left: 1 rem;
+    margin-left: 1rem;
   }
   .sm\:space-x-l > * + * {
-    margin-left: 2 rem;
+    margin-left: 2rem;
   }
   .sm\:space-x-xl > * + * {
-    margin-left: 3 rem;
+    margin-left: 3rem;
   }
   .sm\:space-x-xxl > * + * {
-    margin-left: 5 rem;
+    margin-left: 5rem;
   }
   .sm\:space-x-xxxl > * + * {
-    margin-left: 8 rem;
+    margin-left: 8rem;
   }
   .sm\:space-y-0 > * + * {
     margin-top: 0 px;
   }
   .sm\:space-y-xs > * + * {
-    margin-top: 0.25 rem;
+    margin-top: 0.25rem;
   }
   .sm\:space-y-s > * + * {
-    margin-top: 0.5 rem;
+    margin-top: 0.5rem;
   }
   .sm\:space-y-m > * + * {
-    margin-top: 1 rem;
+    margin-top: 1rem;
   }
   .sm\:space-y-l > * + * {
-    margin-top: 2 rem;
+    margin-top: 2rem;
   }
   .sm\:space-y-xl > * + * {
-    margin-top: 3 rem;
+    margin-top: 3rem;
   }
   .sm\:space-y-xxl > * + * {
-    margin-top: 5 rem;
+    margin-top: 5rem;
   }
   .sm\:space-y-xxxl > * + * {
-    margin-top: 8 rem;
+    margin-top: 8rem;
   }
 
   /* responsive layout */
@@ -12221,49 +12221,49 @@ body {
     margin-left: 0 px;
   }
   .xs\:space-x-xs > * + * {
-    margin-left: 0.25 rem;
+    margin-left: 0.25rem;
   }
   .xs\:space-x-s > * + * {
-    margin-left: 0.5 rem;
+    margin-left: 0.5rem;
   }
   .xs\:space-x-m > * + * {
-    margin-left: 1 rem;
+    margin-left: 1rem;
   }
   .xs\:space-x-l > * + * {
-    margin-left: 2 rem;
+    margin-left: 2rem;
   }
   .xs\:space-x-xl > * + * {
-    margin-left: 3 rem;
+    margin-left: 3rem;
   }
   .xs\:space-x-xxl > * + * {
-    margin-left: 5 rem;
+    margin-left: 5rem;
   }
   .xs\:space-x-xxxl > * + * {
-    margin-left: 8 rem;
+    margin-left: 8rem;
   }
   .xs\:space-y-0 > * + * {
     margin-top: 0 px;
   }
   .xs\:space-y-xs > * + * {
-    margin-top: 0.25 rem;
+    margin-top: 0.25rem;
   }
   .xs\:space-y-s > * + * {
-    margin-top: 0.5 rem;
+    margin-top: 0.5rem;
   }
   .xs\:space-y-m > * + * {
-    margin-top: 1 rem;
+    margin-top: 1rem;
   }
   .xs\:space-y-l > * + * {
-    margin-top: 2 rem;
+    margin-top: 2rem;
   }
   .xs\:space-y-xl > * + * {
-    margin-top: 3 rem;
+    margin-top: 3rem;
   }
   .xs\:space-y-xxl > * + * {
-    margin-top: 5 rem;
+    margin-top: 5rem;
   }
   .xs\:space-y-xxxl > * + * {
-    margin-top: 8 rem;
+    margin-top: 8rem;
   }
 
   /* responsive layout */
