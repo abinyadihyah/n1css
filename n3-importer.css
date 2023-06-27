@@ -714,344 +714,344 @@ body {
 
 /* hover - color */
 
-.hover\:fill-current {
+.hover\:fill-current:hover {
   fill: currentColor !important;
 }
-.hover\:text-primary-100 {
+.hover\:text-primary-100:hover {
   color: var(--primary-100);
 }
-.hover\:text-primary-200 {
+.hover\:text-primary-200:hover {
   color: var(--primary-200);
 }
-.hover\:text-primary-300 {
+.hover\:text-primary-300:hover {
   color: var(--primary-300);
 }
-.hover\:text-primary-400 {
+.hover\:text-primary-400:hover {
   color: var(--primary-400);
 }
-.hover\:text-primary-500 {
+.hover\:text-primary-500:hover {
   color: var(--primary-500);
 }
-.hover\:text-primary-600 {
+.hover\:text-primary-600:hover {
   color: var(--primary-600);
 }
-.hover\:text-primary-700 {
+.hover\:text-primary-700:hover {
   color: var(--primary-700);
 }
-.hover\:text-primary-800 {
+.hover\:text-primary-800:hover {
   color: var(--primary-800);
 }
-.hover\:text-primary-900 {
+.hover\:text-primary-900:hover {
   color: var(--primary-900);
 }
 
-.hover\:text-secondary-100 {
+.hover\:text-secondary-100:hover {
   color: var(--secondary-100);
 }
-.hover\:text-secondary-200 {
+.hover\:text-secondary-200:hover {
   color: var(--secondary-200);
 }
-.hover\:text-secondary-300 {
+.hover\:text-secondary-300:hover {
   color: var(--secondary-300);
 }
-.hover\:text-secondary-400 {
+.hover\:text-secondary-400:hover {
   color: var(--secondary-400);
 }
-.hover\:text-secondary-500 {
+.hover\:text-secondary-500:hover {
   color: var(--secondary-500);
 }
-.hover\:text-secondary-600 {
+.hover\:text-secondary-600:hover {
   color: var(--secondary-600);
 }
-.hover\:text-secondary-700 {
+.hover\:text-secondary-700:hover {
   color: var(--secondary-700);
 }
-.hover\:text-secondary-800 {
+.hover\:text-secondary-800:hover {
   color: var(--secondary-800);
 }
-.hover\:text-secondary-900 {
+.hover\:text-secondary-900:hover {
   color: var(--secondary-900);
 }
 
-.hover\:text-tertiary-100 {
+.hover\:text-tertiary-100:hover {
   color: var(--tertiary-100);
 }
-.hover\:text-tertiary-200 {
+.hover\:text-tertiary-200:hover {
   color: var(--tertiary-200);
 }
-.hover\:text-tertiary-300 {
+.hover\:text-tertiary-300:hover {
   color: var(--tertiary-300);
 }
-.hover\:text-tertiary-400 {
+.hover\:text-tertiary-400:hover {
   color: var(--tertiary-400);
 }
-.hover\:text-tertiary-500 {
+.hover\:text-tertiary-500:hover {
   color: var(--tertiary-500);
 }
-.hover\:text-tertiary-600 {
+.hover\:text-tertiary-600:hover {
   color: var(--tertiary-600);
 }
-.hover\:text-tertiary-700 {
+.hover\:text-tertiary-700:hover {
   color: var(--tertiary-700);
 }
-.hover\:text-tertiary-800 {
+.hover\:text-tertiary-800:hover {
   color: var(--tertiary-800);
 }
-.hover\:text-tertiary-900 {
+.hover\:text-tertiary-900:hover {
   color: var(--tertiary-900);
 }
 
-.hover\:text-slate-100 {
+.hover\:text-slate-100:hover {
   color: var(--slate-100);
 }
-.hover\:text-slate-200 {
+.hover\:text-slate-200:hover {
   color: var(--slate-200);
 }
-.hover\:text-slate-300 {
+.hover\:text-slate-300:hover {
   color: var(--slate-300);
 }
-.hover\:text-slate-400 {
+.hover\:text-slate-400:hover {
   color: var(--slate-400);
 }
-.hover\:text-slate-500 {
+.hover\:text-slate-500:hover {
   color: var(--slate-500);
 }
-.hover\:text-slate-600 {
+.hover\:text-slate-600:hover {
   color: var(--slate-600);
 }
-.hover\:text-slate-700 {
+.hover\:text-slate-700:hover {
   color: var(--slate-700);
 }
-.hover\:text-slate-800 {
+.hover\:text-slate-800:hover {
   color: var(--slate-800);
 }
-.hover\:text-slate-900 {
+.hover\:text-slate-900:hover {
   color: var(--slate-900);
 }
 
-.hover\:text-black {
+.hover\:text-black:hover {
   color: var(--black);
 }
-.hover\:text-black-soft {
+.hover\:text-black-soft:hover {
   color: var(--black-soft);
 }
-.hover\:text-black-softer {
+.hover\:text-black-softer:hover {
   color: var(--black-softer);
 }
-.hover\:text-black-softest {
+.hover\:text-black-softest:hover {
   color: var(--black-softest);
 }
-.hover\:text-gray {
+.hover\:text-gray:hover {
   color: var(--gray);
 }
-.hover\:text-white-darkest {
+.hover\:text-white-darkest:hover {
   color: var(--white-darkest);
 }
-.hover\:text-white-darker {
+.hover\:text-white-darker:hover {
   color: var(--white-darker);
 }
-.hover\:text-white-dark {
+.hover\:text-white-dark:hover {
   color: var(--white-dark);
 }
-.hover\:text-white {
+.hover\:text-white:hover {
   color: var(--white);
 }
 
-.hover\:bg-none {
+.hover\:bg-none:hover {
   background: none;
 }
 
-.hover\:bg-transparent {
+.hover\:bg-transparent:hover {
   background-color: transparent;
 }
 
-.hover\:bg-inherit {
+.hover\:bg-inherit:hover {
   background: inherit;
 }
 
-.hover\:bg-primary-100 {
+.hover\:bg-primary-100:hover {
   background-color: var(--primary-100);
 }
-.hover\:bg-primary-200 {
+.hover\:bg-primary-200:hover {
   background-color: var(--primary-200);
 }
-.hover\:bg-primary-300 {
+.hover\:bg-primary-300:hover {
   background-color: var(--primary-300);
 }
-.hover\:bg-primary-400 {
+.hover\:bg-primary-400:hover {
   background-color: var(--primary-400);
 }
-.hover\:bg-primary-500 {
+.hover\:bg-primary-500:hover {
   background-color: var(--primary-500);
 }
-.hover\:bg-primary-600 {
+.hover\:bg-primary-600:hover {
   background-color: var(--primary-600);
 }
-.hover\:bg-primary-700 {
+.hover\:bg-primary-700:hover {
   background-color: var(--primary-700);
 }
-.hover\:bg-primary-800 {
+.hover\:bg-primary-800:hover {
   background-color: var(--primary-800);
 }
-.hover\:bg-primary-900 {
+.hover\:bg-primary-900:hover {
   background-color: var(--primary-900);
 }
 
-.hover\:bg-secondary-100 {
+.hover\:bg-secondary-100:hover {
   background-color: var(--secondary-100);
 }
-.hover\:bg-secondary-200 {
+.hover\:bg-secondary-200:hover {
   background-color: var(--secondary-200);
 }
-.hover\:bg-secondary-300 {
+.hover\:bg-secondary-300:hover {
   background-color: var(--secondary-300);
 }
-.hover\:bg-secondary-400 {
+.hover\:bg-secondary-400:hover {
   background-color: var(--secondary-400);
 }
-.hover\:bg-secondary-500 {
+.hover\:bg-secondary-500:hover {
   background-color: var(--secondary-500);
 }
-.hover\:bg-secondary-600 {
+.hover\:bg-secondary-600:hover {
   background-color: var(--secondary-600);
 }
-.hover\:bg-secondary-700 {
+.hover\:bg-secondary-700:hover {
   background-color: var(--secondary-700);
 }
-.hover\:bg-secondary-800 {
+.hover\:bg-secondary-800:hover {
   background-color: var(--secondary-800);
 }
-.hover\:bg-secondary-900 {
+.hover\:bg-secondary-900:hover {
   background-color: var(--secondary-900);
 }
 
-.hover\:bg-tertiary-100 {
+.hover\:bg-tertiary-100:hover {
   background-color: var(--tertiary-100);
 }
-.hover\:bg-tertiary-200 {
+.hover\:bg-tertiary-200:hover {
   background-color: var(--tertiary-200);
 }
-.hover\:bg-tertiary-300 {
+.hover\:bg-tertiary-300:hover {
   background-color: var(--tertiary-300);
 }
-.hover\:bg-tertiary-400 {
+.hover\:bg-tertiary-400:hover {
   background-color: var(--tertiary-400);
 }
-.hover\:bg-tertiary-500 {
+.hover\:bg-tertiary-500:hover {
   background-color: var(--tertiary-500);
 }
-.hover\:bg-tertiary-600 {
+.hover\:bg-tertiary-600:hover {
   background-color: var(--tertiary-600);
 }
-.hover\:bg-tertiary-700 {
+.hover\:bg-tertiary-700:hover {
   background-color: var(--tertiary-700);
 }
-.hover\:bg-tertiary-800 {
+.hover\:bg-tertiary-800:hover {
   background-color: var(--tertiary-800);
 }
-.hover\:bg-tertiary-900 {
+.hover\:bg-tertiary-900:hover {
   background-color: var(--tertiary-900);
 }
 
-.hover\:bg-slate-100 {
+.hover\:bg-slate-100:hover {
   background-color: var(--slate-100);
 }
-.hover\:bg-slate-200 {
+.hover\:bg-slate-200:hover {
   background-color: var(--slate-200);
 }
-.hover\:bg-slate-300 {
+.hover\:bg-slate-300:hover {
   background-color: var(--slate-300);
 }
-.hover\:bg-slate-400 {
+.hover\:bg-slate-400:hover {
   background-color: var(--slate-400);
 }
-.hover\:bg-slate-500 {
+.hover\:bg-slate-500:hover {
   background-color: var(--slate-500);
 }
-.hover\:bg-slate-600 {
+.hover\:bg-slate-600:hover {
   background-color: var(--slate-600);
 }
-.hover\:bg-slate-700 {
+.hover\:bg-slate-700:hover {
   background-color: var(--slate-700);
 }
-.hover\:bg-slate-800 {
+.hover\:bg-slate-800:hover {
   background-color: var(--slate-800);
 }
-.hover\:bg-slate-900 {
+.hover\:bg-slate-900:hover {
   background-color: var(--slate-900);
 }
 
-.hover\:bg-black {
+.hover\:bg-black:hover {
   background-color: var(--black);
 }
-.hover\:bg-black-soft {
+.hover\:bg-black-soft:hover {
   background-color: var(--black-soft);
 }
-.hover\:bg-black-softer {
+.hover\:bg-black-softer:hover {
   background-color: var(--black-softer);
 }
-.hover\:bg-black-softest {
+.hover\:bg-black-softest:hover {
   background-color: var(--black-softest);
 }
-.hover\:bg-gray {
+.hover\:bg-gray:hover {
   background-color: var(--gray);
 }
-.hover\:bg-white-darkest {
+.hover\:bg-white-darkest:hover {
   background-color: var(--white-darkest);
 }
-.hover\:bg-white-darker {
+.hover\:bg-white-darker:hover {
   background-color: var(--white-darker);
 }
-.hover\:bg-white-dark {
+.hover\:bg-white-dark:hover {
   background-color: var(--white-dark);
 }
-.hover\:bg-white {
+.hover\:bg-white:hover {
   background-color: var(--white);
 }
 
-.hover\:opacity-0 {
+.hover\:opacity-0:hover {
   opacity: 0;
 }
-.hover\:opacity-5 {
+.hover\:opacity-5:hover {
   opacity: 0.05;
 }
-.hover\:opacity-10 {
+.hover\:opacity-10:hover {
   opacity: 0.1;
 }
-.hover\:opacity-20 {
+.hover\:opacity-20:hover {
   opacity: 0.2;
 }
-.hover\:opacity-25 {
+.hover\:opacity-25:hover {
   opacity: 0.25;
 }
-.hover\:opacity-30 {
+.hover\:opacity-30:hover {
   opacity: 0.3;
 }
-.hover\:opacity-40 {
+.hover\:opacity-40:hover {
   opacity: 0.4;
 }
-.hover\:opacity-50 {
+.hover\:opacity-50:hover {
   opacity: 0.5;
 }
-.hover\:opacity-60 {
+.hover\:opacity-60:hover {
   opacity: 0.6;
 }
-.hover\:opacity-70 {
+.hover\:opacity-70:hover {
   opacity: 0.7;
 }
-.hover\:opacity-75 {
+.hover\:opacity-75:hover {
   opacity: 0.75;
 }
-.hover\:opacity-80 {
+.hover\:opacity-80:hover {
   opacity: 0.8;
 }
-.hover\:opacity-90 {
+.hover\:opacity-90:hover {
   opacity: 0.9;
 }
-.hover\:opacity-95 {
+.hover\:opacity-95:hover {
   opacity: 0.95;
 }
-.hover\:opacity-100 {
+.hover\:opacity-100:hover {
   opacity: 1;
 }
 
