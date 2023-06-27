@@ -1,0 +1,237 @@
+/* Typography */
+
+body {
+  font-size: var(--font-base);
+}
+
+.font-xs,
+.text-xs {
+  font-size: 0.79rem;
+  font-size: var(--font-xs);
+}
+.font-sm,
+.text-sm {
+  font-size: 0.889rem;
+  font-size: var(--font-sm);
+}
+.font-base,
+.text-base {
+  font-size: 1rem;
+  font-size: var(--font-base);
+}
+
+.font-md,
+.text-md {
+  font-size: 1.125rem;
+  font-size: var(--font-md);
+}
+.font-lg,
+.text-lg {
+  font-size: 1.266rem;
+  font-size: var(--font-lg);
+}
+.font-xl,
+.text-xl {
+  font-size: 1.424rem;
+  font-size: var(--font-xl);
+}
+.font-xxl,
+.text-2xl {
+  font-size: 1.602rem;
+  font-size: var(--font-xxl);
+}
+.font-xxxl,
+.text-3xl {
+  font-size: 1.802rem;
+  font-size: var(--font-xxxl);
+}
+.font-lead,
+.text-4xl {
+  font-size: 2.027rem;
+  font-size: var(--font-lead);
+}
+.text-5xl {
+  font-size: 2.281rem;
+}
+
+.text-6xl {
+  font-size: 2.566rem;
+}
+
+.text-7xl {
+  font-size: 2.887rem;
+}
+
+.text-8xl {
+  font-size: 3.247rem;
+}
+
+.text-9xl {
+  font-size: 3.653rem;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+.font-extralight {
+  font-weight: 200;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
+}
+.font-black {
+  font-weight: 900;
+}
+
+.badge {
+  padding: 0.3rem 0.4rem;
+  display: inline-block;
+  background: var(--primary-500);
+  color: var(--white);
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+.text-clip {
+  text-overflow: clip;
+}
+
+/* responsive */
+
+.md\:font-xs,
+.md\:text-xs {
+  font-size: 0.79rem;
+  font-size: var(--font-xs);
+}
+.md\:font-sm,
+.md\:text-sm {
+  font-size: 0.889rem;
+  font-size: var(--font-sm);
+}
+.md\:font-base,
+.md\:text-base {
+  font-size: 1rem;
+  font-size: var(--font-base);
+}
+.md\:font-md,
+.md\:text-md {
+  font-size: 1.125rem;
+  font-size: var(--font-md);
+}
+.md\:font-lg,
+.md\:text-lg {
+  font-size: 1.266rem;
+  font-size: var(--font-lg);
+}
+.md\:font-xl,
+.md\:text-xl {
+  font-size: 1.424rem;
+  font-size: var(--font-xl);
+}
+.md\:font-xxl,
+.md\:text-2xl {
+  font-size: 1.602rem;
+  font-size: var(--font-xxl);
+}
+.md\:font-xxxl,
+.md\:text-3xl {
+  font-size: 1.802rem;
+  font-size: var(--font-xxxl);
+}
+.md\:font-lead,
+.md\:text-4xl {
+  font-size: 2.027rem;
+  font-size: var(--font-lead);
+}
+.md\:text-5xl {
+  font-size: 2.281rem;
+}
+.md\:text-6xl {
+  font-size: 2.566rem;
+}
+.md\:text-7xl {
+  font-size: 2.887rem;
+}
+.md\:text-8xl {
+  font-size: 3.247rem;
+}
+.md\:text-9xl {
+  font-size: 3.653rem;
+}
+.md\:font-thin {
+  font-weight: 100;
+}
+.md\:font-extralight {
+  font-weight: 200;
+}
+.md\:font-light {
+  font-weight: 300;
+}
+.md\:font-normal {
+  font-weight: 400;
+}
+.md\:font-medium {
+  font-weight: 500;
+}
+.md\:font-semibold {
+  font-weight: 600;
+}
+.md\:font-bold {
+  font-weight: 700;
+}
+.md\:font-extrabold {
+  font-weight: 800;
+}
+.md\:font-black {
+  font-weight: 900;
+}
+.md\:badge {
+  padding: 0.3rem 0.4rem;
+  display: inline-block;
+  background: var(--primary-500);
+  color: var(--white);
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+.md\:truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.md\:text-ellipsis {
+  text-overflow: ellipsis;
+}
+.md\:text-clip {
+  text-overflow: clip;
+}

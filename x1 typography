@@ -1,0 +1,112 @@
+/* responsive Typography */
+
+.lg\:font-xs,
+.lg\:text-xs {
+  font-size: 0.79rem;
+  font-size: var(--font-xs);
+}
+.lg\:font-sm,
+.lg\:text-sm {
+  font-size: 0.889rem;
+  font-size: var(--font-sm);
+}
+.lg\:font-base,
+.lg\:text-base {
+  font-size: 1rem;
+  font-size: var(--font-base);
+}
+.lg\:font-md,
+.lg\:text-md {
+  font-size: 1.125rem;
+  font-size: var(--font-md);
+}
+.lg\:font-lg,
+.lg\:text-lg {
+  font-size: 1.266rem;
+  font-size: var(--font-lg);
+}
+.lg\:font-xl,
+.lg\:text-xl {
+  font-size: 1.424rem;
+  font-size: var(--font-xl);
+}
+.lg\:font-xxl,
+.lg\:text-2xl {
+  font-size: 1.602rem;
+  font-size: var(--font-xxl);
+}
+.lg\:font-xxxl,
+.lg\:text-3xl {
+  font-size: 1.802rem;
+  font-size: var(--font-xxxl);
+}
+.lg\:font-lead,
+.lg\:text-4xl {
+  font-size: 2.027rem;
+  font-size: var(--font-lead);
+}
+.lg\:text-5xl {
+  font-size: 2.281rem;
+}
+.lg\:text-6xl {
+  font-size: 2.566rem;
+}
+.lg\:text-7xl {
+  font-size: 2.887rem;
+}
+.lg\:text-8xl {
+  font-size: 3.247rem;
+}
+.lg\:text-9xl {
+  font-size: 3.653rem;
+}
+.lg\:font-thin {
+  font-weight: 100;
+}
+.lg\:font-extralight {
+  font-weight: 200;
+}
+.lg\:font-light {
+  font-weight: 300;
+}
+.lg\:font-normal {
+  font-weight: 400;
+}
+.lg\:font-medium {
+  font-weight: 500;
+}
+.lg\:font-semibold {
+  font-weight: 600;
+}
+.lg\:font-bold {
+  font-weight: 700;
+}
+.lg\:font-extrabold {
+  font-weight: 800;
+}
+.lg\:font-black {
+  font-weight: 900;
+}
+.lg\:badge {
+  padding: 0.3rem 0.4rem;
+  display: inline-block;
+  background: var(--primary-500);
+  color: var(--white);
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+.lg\:truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lg\:text-ellipsis {
+  text-overflow: ellipsis;
+}
+.lg\:text-clip {
+  text-overflow: clip;
+}

@@ -1,0 +1,341 @@
+/* responsive */
+.lg\:fill-current {
+  fill: currentColor !important;
+}
+.lg\:text-primary-100 {
+  color: var(--primary-100);
+}
+.lg\:text-primary-200 {
+  color: var(--primary-200);
+}
+.lg\:text-primary-300 {
+  color: var(--primary-300);
+}
+.lg\:text-primary-400 {
+  color: var(--primary-400);
+}
+.lg\:text-primary-500 {
+  color: var(--primary-500);
+}
+.lg\:text-primary-600 {
+  color: var(--primary-600);
+}
+.lg\:text-primary-700 {
+  color: var(--primary-700);
+}
+.lg\:text-primary-800 {
+  color: var(--primary-800);
+}
+.lg\:text-primary-900 {
+  color: var(--primary-900);
+}
+
+.lg\:text-secondary-100 {
+  color: var(--secondary-100);
+}
+.lg\:text-secondary-200 {
+  color: var(--secondary-200);
+}
+.lg\:text-secondary-300 {
+  color: var(--secondary-300);
+}
+.lg\:text-secondary-400 {
+  color: var(--secondary-400);
+}
+.lg\:text-secondary-500 {
+  color: var(--secondary-500);
+}
+.lg\:text-secondary-600 {
+  color: var(--secondary-600);
+}
+.lg\:text-secondary-700 {
+  color: var(--secondary-700);
+}
+.lg\:text-secondary-800 {
+  color: var(--secondary-800);
+}
+.lg\:text-secondary-900 {
+  color: var(--secondary-900);
+}
+
+.lg\:text-tertiary-100 {
+  color: var(--tertiary-100);
+}
+.lg\:text-tertiary-200 {
+  color: var(--tertiary-200);
+}
+.lg\:text-tertiary-300 {
+  color: var(--tertiary-300);
+}
+.lg\:text-tertiary-400 {
+  color: var(--tertiary-400);
+}
+.lg\:text-tertiary-500 {
+  color: var(--tertiary-500);
+}
+.lg\:text-tertiary-600 {
+  color: var(--tertiary-600);
+}
+.lg\:text-tertiary-700 {
+  color: var(--tertiary-700);
+}
+.lg\:text-tertiary-800 {
+  color: var(--tertiary-800);
+}
+.lg\:text-tertiary-900 {
+  color: var(--tertiary-900);
+}
+
+.lg\:text-slate-100 {
+  color: var(--slate-100);
+}
+.lg\:text-slate-200 {
+  color: var(--slate-200);
+}
+.lg\:text-slate-300 {
+  color: var(--slate-300);
+}
+.lg\:text-slate-400 {
+  color: var(--slate-400);
+}
+.lg\:text-slate-500 {
+  color: var(--slate-500);
+}
+.lg\:text-slate-600 {
+  color: var(--slate-600);
+}
+.lg\:text-slate-700 {
+  color: var(--slate-700);
+}
+.lg\:text-slate-800 {
+  color: var(--slate-800);
+}
+.lg\:text-slate-900 {
+  color: var(--slate-900);
+}
+
+.lg\:text-black {
+  color: var(--black);
+}
+.lg\:text-black-soft {
+  color: var(--black-soft);
+}
+.lg\:text-black-softer {
+  color: var(--black-softer);
+}
+.lg\:text-black-softest {
+  color: var(--black-softest);
+}
+.lg\:text-gray {
+  color: var(--gray);
+}
+.lg\:text-white-darkest {
+  color: var(--white-darkest);
+}
+.lg\:text-white-darker {
+  color: var(--white-darker);
+}
+.lg\:text-white-dark {
+  color: var(--white-dark);
+}
+.lg\:text-white {
+  color: var(--white);
+}
+
+.lg\:bg-none {
+  background: none;
+}
+
+.lg\:bg-transparent {
+  background-color: transparent;
+}
+
+.lg\:bg-inherit {
+  background: inherit;
+}
+
+.lg\:bg-primary-100 {
+  background-color: var(--primary-100);
+}
+.lg\:bg-primary-200 {
+  background-color: var(--primary-200);
+}
+.lg\:bg-primary-300 {
+  background-color: var(--primary-300);
+}
+.lg\:bg-primary-400 {
+  background-color: var(--primary-400);
+}
+.lg\:bg-primary-500 {
+  background-color: var(--primary-500);
+}
+.lg\:bg-primary-600 {
+  background-color: var(--primary-600);
+}
+.lg\:bg-primary-700 {
+  background-color: var(--primary-700);
+}
+.lg\:bg-primary-800 {
+  background-color: var(--primary-800);
+}
+.lg\:bg-primary-900 {
+  background-color: var(--primary-900);
+}
+
+.lg\:bg-secondary-100 {
+  background-color: var(--secondary-100);
+}
+.lg\:bg-secondary-200 {
+  background-color: var(--secondary-200);
+}
+.lg\:bg-secondary-300 {
+  background-color: var(--secondary-300);
+}
+.lg\:bg-secondary-400 {
+  background-color: var(--secondary-400);
+}
+.lg\:bg-secondary-500 {
+  background-color: var(--secondary-500);
+}
+.lg\:bg-secondary-600 {
+  background-color: var(--secondary-600);
+}
+.lg\:bg-secondary-700 {
+  background-color: var(--secondary-700);
+}
+.lg\:bg-secondary-800 {
+  background-color: var(--secondary-800);
+}
+.lg\:bg-secondary-900 {
+  background-color: var(--secondary-900);
+}
+
+.lg\:bg-tertiary-100 {
+  background-color: var(--tertiary-100);
+}
+.lg\:bg-tertiary-200 {
+  background-color: var(--tertiary-200);
+}
+.lg\:bg-tertiary-300 {
+  background-color: var(--tertiary-300);
+}
+.lg\:bg-tertiary-400 {
+  background-color: var(--tertiary-400);
+}
+.lg\:bg-tertiary-500 {
+  background-color: var(--tertiary-500);
+}
+.lg\:bg-tertiary-600 {
+  background-color: var(--tertiary-600);
+}
+.lg\:bg-tertiary-700 {
+  background-color: var(--tertiary-700);
+}
+.lg\:bg-tertiary-800 {
+  background-color: var(--tertiary-800);
+}
+.lg\:bg-tertiary-900 {
+  background-color: var(--tertiary-900);
+}
+
+.lg\:bg-slate-100 {
+  background-color: var(--slate-100);
+}
+.lg\:bg-slate-200 {
+  background-color: var(--slate-200);
+}
+.lg\:bg-slate-300 {
+  background-color: var(--slate-300);
+}
+.lg\:bg-slate-400 {
+  background-color: var(--slate-400);
+}
+.lg\:bg-slate-500 {
+  background-color: var(--slate-500);
+}
+.lg\:bg-slate-600 {
+  background-color: var(--slate-600);
+}
+.lg\:bg-slate-700 {
+  background-color: var(--slate-700);
+}
+.lg\:bg-slate-800 {
+  background-color: var(--slate-800);
+}
+.lg\:bg-slate-900 {
+  background-color: var(--slate-900);
+}
+
+.lg\:bg-black {
+  background-color: var(--black);
+}
+.lg\:bg-black-soft {
+  background-color: var(--black-soft);
+}
+.lg\:bg-black-softer {
+  background-color: var(--black-softer);
+}
+.lg\:bg-black-softest {
+  background-color: var(--black-softest);
+}
+.lg\:bg-gray {
+  background-color: var(--gray);
+}
+.lg\:bg-white-darkest {
+  background-color: var(--white-darkest);
+}
+.lg\:bg-white-darker {
+  background-color: var(--white-darker);
+}
+.lg\:bg-white-dark {
+  background-color: var(--white-dark);
+}
+.lg\:bg-white {
+  background-color: var(--white);
+}
+
+.lg\:opacity-0 {
+  opacity: 0;
+}
+.lg\:opacity-5 {
+  opacity: 0.05;
+}
+.lg\:opacity-10 {
+  opacity: 0.1;
+}
+.lg\:opacity-20 {
+  opacity: 0.2;
+}
+.lg\:opacity-25 {
+  opacity: 0.25;
+}
+.lg\:opacity-30 {
+  opacity: 0.3;
+}
+.lg\:opacity-40 {
+  opacity: 0.4;
+}
+.lg\:opacity-50 {
+  opacity: 0.5;
+}
+.lg\:opacity-60 {
+  opacity: 0.6;
+}
+.lg\:opacity-70 {
+  opacity: 0.7;
+}
+.lg\:opacity-75 {
+  opacity: 0.75;
+}
+.lg\:opacity-80 {
+  opacity: 0.8;
+}
+.lg\:opacity-90 {
+  opacity: 0.9;
+}
+.lg\:opacity-95 {
+  opacity: 0.95;
+}
+.lg\:opacity-100 {
+  opacity: 1;
+}
