@@ -1,9 +1,5 @@
 /* Typography */
 
-body {
-  font-size: var(--font-base);
-}
-
 .font-xs,
 .text-xs {
   font-size: 0.79rem;
@@ -510,7 +506,6 @@ body {
 .text-white {
   color: var(--white);
 }
-
 
 /* section 2 - color - background */
 
@@ -1630,8 +1625,6 @@ body {
 }
 
 /* section 3 - spacing - spacing */
-
-
 
 .owl-spacing__xs > * + * {
   margin-top: 0.3rem;
@@ -4321,7 +4314,6 @@ body {
 
   /* section 3 - spacing - spacing */
 
-
   .lg\:owl-spacing__xs > * + * {
     margin-top: 0.3rem;
   }
@@ -6826,7 +6818,6 @@ body {
   }
 
   /* section 3 - spacing - spacing */
-
 
   .md\:owl-spacing__xs > * + * {
     margin-top: 0.3rem;
@@ -9333,7 +9324,6 @@ body {
 
   /* section 3 - spacing - spacing */
 
-  
   .sm\:owl-spacing__xs > * + * {
     margin-top: 0.3rem;
   }
@@ -11851,7 +11841,6 @@ body {
 
   /* section 3 - spacing - spacing */
 
- 
   .xs\:owl-spacing__xs > * + * {
     margin-top: 0.3rem;
   }
