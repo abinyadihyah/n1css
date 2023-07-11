@@ -1,6 +1,8 @@
 <?php
 
 
+//////////////////// ACF Theme Variable Getter ////////////////////
+
 // Screen Size For Fluid
 $minimumViewport = 420;
 $maximumViewport = 1200;
@@ -20,6 +22,19 @@ $spacingRatioDesktop = floatval(get_field('space_scale_on_desktop', 'option'));
 // Mobile Spacing Sizes
 $spacingBaseMobile = get_field('content_spacing_on_mobile', 'option');
 $spacingRatioMobile = floatval(get_field('space_scale_on_mobile', 'option'));
+
+// Color Field
+
+
+
+
+
+
+
+
+
+
+//////////////////// Fluid Typography ////////////////////
 
 // Calculate Desktop Font Sizes
 $fontSizesDesktop = [
@@ -49,6 +64,30 @@ $fontSizesMobile = [
     'xxxxl' => $fontSizeBaseMobile * ($fontSizeRatioMobile ** 6),
 ];
 
+
+// Font Clamp Prefer Value
+$fontClampRemPreferValue = [];
+$fontClampVwPreferValue = [];
+$fontClampPreferValue = [];
+
+$fontSizes = ['xxs', 'xs', 's', 'base', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl'];
+
+foreach ($fontSizes as $size) {
+    $fontClampRemPreferValue['fontRem' . ucfirst($size)] = ($minimumViewport * $fontSizesDesktop[$size] - $maximumViewport * $fontSizesMobile[$size]) / ($minimumViewport - $maximumViewport);
+
+    $fontClampVwPreferValue['fontVw' . ucfirst($size)] = 100 * ($fontSizesDesktop[$size] - $fontSizesMobile[$size]) / ($maximumViewport - $minimumViewport);
+
+    $fontClampPreferValue['fontPrefer' . ucfirst($size)] = round($fontClampVwPreferValue['fontVw' . ucfirst($size)], 3) . 'vw + ' . round($fontClampRemPreferValue['fontRem' . ucfirst($size)], 3) . 'px';
+};
+
+
+
+
+
+//////////////////// Fluid Spacing ////////////////////
+
+
+
 // Calculate Desktop Spacing Sizes
 $spacingSizesDesktop = [
     'xxs' => $spacingBaseDesktop / ($spacingRatioDesktop ** 4),
@@ -77,24 +116,9 @@ $spacingSizesMobile = [
     'xxxxl' => $spacingBaseMobile * ($spacingRatioMobile ** 6),
 ];
 
-// Clamp Prefer Value
-$fontClampRemPreferValue = [];
-$fontClampVwPreferValue = [];
-$fontClampPreferValue = [];
-
-$fontSizes = ['xxs', 'xs', 's', 'base', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl'];
-
-foreach ($fontSizes as $size) {
-    $fontClampRemPreferValue['fontRem' . ucfirst($size)] = ($minimumViewport * $fontSizesDesktop[$size] - $maximumViewport * $fontSizesMobile[$size]) / ($minimumViewport - $maximumViewport);
-
-    $fontClampVwPreferValue['fontVw' . ucfirst($size)] = 100 * ($fontSizesDesktop[$size] - $fontSizesMobile[$size]) / ($maximumViewport - $minimumViewport);
-
-    $fontClampPreferValue['fontPrefer' . ucfirst($size)] = round($fontClampVwPreferValue['fontVw' . ucfirst($size)], 3) . 'vw + ' . round($fontClampRemPreferValue['fontRem' . ucfirst($size)], 3) . 'px';
-};
 
 
-
-//Spacing Prefer Value
+//Spacing Clamp Prefer Value
 $spacingClampRemPreferValue = [];
 $spacingClampVwPreferValue = [];
 $spacingClampPreferValue = [];
@@ -111,13 +135,23 @@ foreach ($spacingSizes as $size) {
 
 
 
+//////////////////// Color Shade Generator ////////////////////
+
+
 
 
 
 ?>
 
 
+
+
+
+
 <style>
+    /* Dynamic Theme Variables */
+
+
     :root {
         /* Desktop Font Sizes */
         <?php foreach ($fontSizesDesktop as $sizeName => $sizeValue) : ?>--font-<?php echo $sizeName; ?>-desktop: <?php echo round($sizeValue, 3); ?>px;
