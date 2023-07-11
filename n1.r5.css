@@ -5047,15 +5047,15 @@ p {
     row-gap: var(--space-xxxl);
   }
   .lg\:space-y-xxs,
-  .space-y-xs,
-  .space-y-s,
-  .space-y-base,
-  .space-y-m,
-  .space-y-l,
-  .space-y-l,
-  .space-y-xl,
-  .space-y-xxl,
-  .space-y-xxxl {
+  .lg\:space-y-xs,
+  .lg\:space-y-s,
+  .lg\:space-y-base,
+  .lg\:space-y-m,
+  .lg\:space-y-l,
+  .lg\:space-y-l,
+  .lg\:space-y-xl,
+  .lg\:space-y-xxl,
+  .lg\:space-y-xxxl {
     display: flex;
     flex-direction: column;
   }
