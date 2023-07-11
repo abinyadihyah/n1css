@@ -118,7 +118,7 @@ foreach ($fontSizes as $size) {
 
 // Calculate Desktop Spacing Sizes
 $spacingSizesDesktop = [
-    'xxs' => $spacingBaseDesktop / ($spacingRatioDesktop ** 4),
+    // 'xxs' => $spacingBaseDesktop / ($spacingRatioDesktop ** 4),
     'xs' => $spacingBaseDesktop / ($spacingRatioDesktop ** 3),
     's' => $spacingBaseDesktop / ($spacingRatioDesktop ** 2),
     'base' => $spacingBaseDesktop,
@@ -127,12 +127,12 @@ $spacingSizesDesktop = [
     'xl' => $spacingBaseDesktop * ($spacingRatioDesktop ** 3),
     'xxl' => $spacingBaseDesktop * ($spacingRatioDesktop ** 4),
     'xxxl' => $spacingBaseDesktop * ($spacingRatioDesktop ** 5),
-    'xxxxl' => $spacingBaseDesktop * ($spacingRatioDesktop ** 6),
+    // 'xxxxl' => $spacingBaseDesktop * ($spacingRatioDesktop ** 6),
 ];
 
 // Calculate Mobile Spacing Sizes
 $spacingSizesMobile = [
-    'xxs' => $spacingBaseMobile / ($spacingRatioMobile ** 4),
+    // 'xxs' => $spacingBaseMobile / ($spacingRatioMobile ** 4),
     'xs' => $spacingBaseMobile / ($spacingRatioMobile ** 3),
     's' => $spacingBaseMobile / ($spacingRatioMobile ** 2),
     'base' => $spacingBaseMobile,
@@ -141,7 +141,7 @@ $spacingSizesMobile = [
     'xl' => $spacingBaseMobile * ($spacingRatioMobile ** 3),
     'xxl' => $spacingBaseMobile * ($spacingRatioMobile ** 4),
     'xxxl' => $spacingBaseMobile * ($spacingRatioMobile ** 5),
-    'xxxxl' => $spacingBaseMobile * ($spacingRatioMobile ** 6),
+    // 'xxxxl' => $spacingBaseMobile * ($spacingRatioMobile ** 6),
 ];
 
 
@@ -151,7 +151,7 @@ $spacingClampRemPreferValue = [];
 $spacingClampVwPreferValue = [];
 $spacingClampPreferValue = [];
 
-$spacingSizes = ['xxs', 'xs', 's', 'base', 'm', 'l', 'xl', 'xxl', 'xxxl', 'xxxxl'];
+$spacingSizes = ['xs', 's', 'base', 'm', 'l', 'xl', 'xxl', 'xxxl'];
 
 foreach ($spacingSizes as $size) {
     $spacingClampRemPreferValue['spacingRem' . ucfirst($size)] = ($minimumViewport * $spacingSizesDesktop[$size] - $maximumViewport * $spacingSizesMobile[$size]) / ($minimumViewport - $maximumViewport);
@@ -349,7 +349,7 @@ for ($i = 0; $i <= $num_levels; $i++) {
 
 
         /* Fluid Spacing */
-        --spacing-xxs: clamp(var(--spacing-xxs-mobile), <?php echo $spacingClampPreferValue['spacingPreferXxs']; ?>, var(--spacing-xxs-desktop));
+        /* --spacing-xxs: clamp(var(--spacing-xxs-mobile), <?php echo $spacingClampPreferValue['spacingPreferXxs']; ?>, var(--spacing-xxs-desktop)); */
         --spacing-xs: clamp(var(--spacing-xs-mobile), <?php echo $spacingClampPreferValue['spacingPreferXs']; ?>, var(--spacing-xs-desktop));
         --spacing-sm: clamp(var(--spacing-s-mobile), <?php echo $spacingClampPreferValue['spacingPreferS']; ?>, var(--spacing-s-desktop));
         --spacing-base: clamp(var(--spacing-base-mobile), <?php echo $spacingClampPreferValue['spacingPreferBase']; ?>, var(--spacing-base-desktop));
@@ -358,7 +358,7 @@ for ($i = 0; $i <= $num_levels; $i++) {
         --spacing-xl: clamp(var(--spacing-xl-mobile), <?php echo $spacingClampPreferValue['spacingPreferXl']; ?>, var(--spacing-xl-desktop));
         --spacing-xxl: clamp(var(--spacing-xxl-mobile), <?php echo $spacingClampPreferValue['spacingPreferXxl']; ?>, var(--spacing-xxl-desktop));
         --spacing-xxxl: clamp(var(--spacing-xxxl-mobile), <?php echo $spacingClampPreferValue['spacingPreferXxxl']; ?>, var(--spacing-xxxl-desktop));
-        --spacing-xxxxl: clamp(var(--spacing-xxxxl-mobile), <?php echo $spacingClampPreferValue['spacingPreferXxxxl']; ?>, var(--spacing-xxxxl-desktop));
+        /* --spacing-xxxxl: clamp(var(--spacing-xxxxl-mobile), <?php echo $spacingClampPreferValue['spacingPreferXxxxl']; ?>, var(--spacing-xxxxl-desktop)); */
 
 
         /* Layout */
