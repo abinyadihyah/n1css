@@ -609,29 +609,7 @@ h6 {
 .gap-y-xxxl {
   row-gap: var(--space-xxxl);
 }
-.space-x-xs,
-space-x-s,
-space-x-base,
-space-x-m,
-space-x-l,
-space-x-xl,
-space-x-xxl,
-space-x-xxxl {
-  display: flex;
-  flex-direction: column;
-}
-.space-y-xs,
-space-y-s,
-space-y-base,
-space-y-m,
-space-y-l,
-space-y-xl,
-space-y-xxl,
-space-y-xxxl {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+
 .space-x-xs {
   column-gap: var(--space-xs);
 }
