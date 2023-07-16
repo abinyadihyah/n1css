@@ -1,11 +1,21 @@
 /*  Theme 1 - basic Layout */
 
 body {
+  font-size: var(--font-base-desktop);
   font-size: var(--font-base);
 }
 
 p {
-  line-height: var(--line-height-paragraph);
+  line-height: var(--line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: var(--line-height-heading);
 }
 
 .header {
@@ -1952,10 +1962,11 @@ space-y-xxxl {
   /*  Theme 1 - basic Layout */
   body {
     font-size: var(--font-base-on-mobile);
+    font-size: var(--font-base);
   }
 
   p {
-    line-height: var(--line-height-paragraph);
+    line-height: var(--line-height);
   }
 
   .header {
