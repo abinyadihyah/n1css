@@ -252,8 +252,6 @@ p {
 .side-padding {
   padding-left: 16px;
   padding-right: 16px;
-  padding-left: var(--side-padding);
-  padding-right: var(--side-padding);
 }
 
 .font-xxs,
