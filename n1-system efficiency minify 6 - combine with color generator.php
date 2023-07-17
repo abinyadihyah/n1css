@@ -21,6 +21,14 @@ $fontSizeRatioDesktop = floatval(get_field('font_scale_on_desktop', 'option'));;
 $fontSizeBaseMobile = get_field('font_base_size_on_mobile', 'option');
 $fontSizeRatioMobile = floatval(get_field('font_scale_on_mobile', 'option'));
 
+//Line Height
+$line_height_paragraph = get_field('line_height_paragraph', 'option');
+$line_height_heading = get_field('line_height_for_heading', 'option');
+
+//Layout
+$header_height = get_field('header_height', 'option');
+$header_height_mobile = get_field('header_height_on_mobile', 'option');
+
 // Desktop Spacing Sizes
 $spacingBaseDesktop = get_field('content_spacing_on_desktop', 'option');
 $spacingRatioDesktop = floatval(get_field('space_scale_on_desktop', 'option'));
@@ -28,8 +36,7 @@ $spacingRatioDesktop = floatval(get_field('space_scale_on_desktop', 'option'));
 // Mobile Spacing Sizes
 $spacingBaseMobile = get_field('content_spacing_on_mobile', 'option');
 $spacingRatioMobile = floatval(get_field('space_scale_on_mobile', 'option'));
-$line_height_paragraph = get_field('line_height_paragraph', 'option');
-$line_height_heading = get_field('line_height_for_heading', 'option');
+
 
 // Color Field Theme
 $hexprimary = get_field('default_theme_primary_color', 'option');
@@ -351,6 +358,8 @@ for ($i = 0; $i <= $num_levels; $i++) {
 
 
         /* Layout */
+        --header-height: <?php echo $header_height ?>px;
+        --header-height-on-mobile: <?php echo $header_height_mobile ?>px;
         --container-size: <?php echo $container_size; ?>px;
         --side-padding: <?php echo $side_padding; ?>px;
 
@@ -462,7 +471,7 @@ for ($i = 0; $i <= $num_levels; $i++) {
         <?php endforeach; ?>
         /* Spacing Variables */
         --space-xs: clamp(var(--spacing-xs-mobile), <?php echo $spacingClampPreferValue['spacingPreferXs']; ?>, var(--spacing-xs-desktop));
-        --space-sm: clamp(var(--spacing-s-mobile), <?php echo $spacingClampPreferValue['spacingPreferS']; ?>, var(--spacing-s-desktop));
+        --space-s: clamp(var(--spacing-s-mobile), <?php echo $spacingClampPreferValue['spacingPreferS']; ?>, var(--spacing-s-desktop));
         --space-base: clamp(var(--spacing-base-mobile), <?php echo $spacingClampPreferValue['spacingPreferBase']; ?>, var(--spacing-base-desktop));
         --space-m: clamp(var(--spacing-m-mobile), <?php echo $spacingClampPreferValue['spacingPreferM']; ?>, var(--spacing-m-desktop));
         --space-l: clamp(var(--spacing-l-mobile), <?php echo $spacingClampPreferValue['spacingPreferL']; ?>, var(--spacing-l-desktop));
