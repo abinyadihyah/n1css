@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/abinyadihyah/n1css@main/n1-r5.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/abinyadihyah/n1css@main/n1-r5-themer.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/abinyadihyah/n1css@main/n1-r6-themer.css" />
 
 <?php
 
