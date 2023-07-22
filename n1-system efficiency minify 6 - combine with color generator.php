@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/abinyadihyah/n1css@main/n1-r5.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/abinyadihyah/n1css@main/n1-r6-themer.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/abinyadihyah/n1css@main/n1-r7.css />
+<link rel=" stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/abinyadihyah/n1css@main/n1-r7-themer.css" />
 
 <?php
 
@@ -70,6 +70,17 @@ $dm_slate_900 = get_field('dark_mode_heading_base_color_medium_on_dark_mode', 'o
 // Layout Field
 $container_size = get_field('maximum_content_width', 'option');
 $side_padding = get_field('content_side_padding', 'option');
+
+
+
+
+
+//Animation field
+$speed_base = get_field('maximum_content_width', 'option');
+$speed_slowest = get_field('maximum_content_width', 'option');
+$speed_fastest = get_field('maximum_content_width', 'option');
+$delay_base = get_field('maximum_content_width', 'option');
+
 
 
 
@@ -478,5 +489,57 @@ for ($i = 0; $i <= $num_levels; $i++) {
         --space-xl: clamp(var(--spacing-xl-mobile), <?php echo $spacingClampPreferValue['spacingPreferXl']; ?>, var(--spacing-xl-desktop));
         --space-xxl: clamp(var(--spacing-xxl-mobile), <?php echo $spacingClampPreferValue['spacingPreferXxl']; ?>, var(--spacing-xxl-desktop));
         --space-xxxl: clamp(var(--spacing-xxxl-mobile), <?php echo $spacingClampPreferValue['spacingPreferXxxl']; ?>, var(--spacing-xxxl-desktop));
+
+        /* Animation Variable */
+        --duration-base: <?php echo $speed_base; ?>s;
+        --duration-slowest: <?php echo $speed_slowest; ?>s;
+        --duration-slow: calc((var(--duration-base) + var(--duration-slowest)) / 2);
+        --duration-fastest: <?php echo $fastest; ?>s;
+        --duration-fast: calc((var(--duration-base) + var(--duration-fastest)) / 2);
+
+
+        --delay-gradual-base: <?php echo $delay_base; ?>s;
     }
 </style>
+
+
+<script>
+    // Animation Framework Start //
+
+    // Function to initialize the Intersection Observer
+    const initIntersectionObserver = () => {
+        // Get all elements with the "animate" class
+        const elements = document.querySelectorAll(".animate");
+
+        // Callback function for the Intersection Observer
+        const handleIntersection = (entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    // Add the "visible" class to trigger the animation
+                    entry.target.classList.add("visible");
+
+                    // We don't stop observing the element, so the animation can play again on subsequent scrolls
+                    // observer.unobserve(entry.target);
+                } else {
+                    // If the element is not intersecting, remove the "visible" class to reset the animation
+                    entry.target.classList.remove("visible");
+                }
+            });
+        };
+
+        // Create the Intersection Observer instance
+        const observer = new IntersectionObserver(handleIntersection, {
+            threshold: 0.5, // Adjust this value to control when the animations trigger
+        });
+
+        // Observe all elements with the "animate" class
+        elements.forEach((element) => {
+            observer.observe(element);
+        });
+    };
+
+    // Add event listener for the "load" event
+    window.addEventListener("load", initIntersectionObserver);
+
+    // Animation Framework End //
+</script>

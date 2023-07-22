@@ -238,6 +238,20 @@
   --rose-700: #be123c;
   --rose-800: #9f1239;
   --rose-900: #881337;
+
+  /* Animation */
+  --duration-base: 0.5s;
+  --duration-slowest: 2s;
+  --duration-slow: calc((var(--duration-base) + var(--duration-slowest)) / 2);
+  --duration-fastest: 0.15s;
+  --duration-fast: calc((var(--duration-base) + var(--duration-fastest)) / 2);
+
+  --delay-base: 0.5s;
+  --delay-slowest: 2s;
+  --delay-slow: calc((var(--delay-base) + var(--delay-slowest)) / 2);
+  --delay-fastest: 0.15s;
+  --delay-fast: calc((var(--delay-base) + var(--delay-fastest)) / 2);
+  --delay-gradual-base: 0.5s;
 }
 
 body {
@@ -3413,6 +3427,193 @@ h6 {
       animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
     }
   }
+}
+
+/* Animation Fallback System */
+.animate {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition-duration: 0.5s;
+  transition-duration: var(--duration-base);
+}
+
+/* Define individual animations */
+.animate.fade:not(.visible) {
+  opacity: 0;
+}
+
+.animate.fade.visible {
+  opacity: 1;
+}
+
+.animate.slide-up:not(.visible) {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.animate.slide-up.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.animate.slide-down:not(.visible) {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+.animate.slide-down.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.animate.slide-left:not(.visible) {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.animate.slide-left.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.animate.slide-right:not(.visible) {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+.animate.slide-right.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.animate.zoom-in:not(.visible) {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.animate.zoom-in.visible {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.animate.zoom-out:not(.visible) {
+  opacity: 0;
+  transform: scale(2);
+}
+
+.animate.zoom-out.visible {
+  opacity: 0;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.animate.flip-up:not(.visible) {
+  opacity: 0;
+  transform: rotateX(180deg);
+}
+
+.animate.flip-up.visible {
+  transform: rotateX(0);
+  opacity: 1;
+}
+
+.animate.flip-down:not(.visible) {
+  opacity: 0;
+  transform: rotateX(-180deg);
+}
+
+.animate.flip-down.visible {
+  transform: rotateX(0);
+  opacity: 1;
+}
+
+.animate.flip-left:not(.visible) {
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+
+.animate.flip-left.visible {
+  transform: rotateY(0);
+  opacity: 1;
+}
+
+.animate.flip-right:not(.visible) {
+  opacity: 0;
+  transform: rotateY(-180deg);
+}
+
+.animate.flip-right.visible {
+  transform: rotateY(0);
+  opacity: 1;
+}
+
+/* Speed classes for animations */
+.slowest {
+  transition-duration: 2s;
+}
+
+.slow {
+  transition-duration: 1s;
+}
+
+.duration-base {
+  transition-duration: 0.5s;
+}
+
+.fast {
+  transition-duration: 0.25s;
+}
+
+.fastest {
+  transition-duration: 0.1s;
+}
+
+/* Delay classes for animations */
+.delay-slowest {
+  transition-delay: 2s;
+}
+
+.delay-slow {
+  transition-delay: 1s;
+}
+
+.delay-normal {
+  transition-delay: 0.5s;
+}
+
+.delay-fast {
+  transition-delay: 0.25s;
+}
+
+.delay-fastest {
+  transition-delay: 0.1s;
+}
+
+.delay-gradual:nth-child(1) {
+  transition-delay: 0s;
+}
+.delay-gradual:nth-child(2) {
+  transition-delay: 0.5s;
+}
+.delay-gradual:nth-child(3) {
+  transition-delay: 1s;
+}
+.delay-gradual:nth-child(4) {
+  transition-delay: 1.5s;
+}
+.delay-gradual:nth-child(5) {
+  transition-delay: 2s;
+}
+.delay-gradual:nth-child(6) {
+  transition-delay: 2.5s;
+}
+.delay-gradual:nth-child(7) {
+  transition-delay: 3s;
+}
+.delay-gradual:nth-child(8) {
+  transition-delay: 3.5s;
+}
+.delay-gradual:nth-child(9) {
+  transition-delay: 4;
 }
 
 .hover-appear {

@@ -1,0 +1,179 @@
+<style>
+  /* Base style for all animations */
+  .animate-on-scroll {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+  }
+
+  /* Define individual animations */
+  .animate-on-scroll.fade:not(.visible) {
+    opacity: 0;
+  }
+
+  .animate-on-scroll.fade.visible {
+    opacity: 1;
+  }
+
+  .animate-on-scroll.slide-up:not(.visible) {
+    transform: translateY(50px);
+  }
+
+  .animate-on-scroll.slide-up.visible {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .animate-on-scroll.slide-down:not(.visible) {
+    transform: translateY(-50px);
+  }
+
+  .animate-on-scroll.slide-down.visible {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .animate-on-scroll.slide-left:not(.visible) {
+    transform: translateX(50px);
+  }
+
+  .animate-on-scroll.slide-left.visible {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .animate-on-scroll.slide-right:not(.visible) {
+    transform: translateX(-50px);
+  }
+
+  .animate-on-scroll.slide-right.visible {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .animate-on-scroll.zoom-in:not(.visible) {
+    transform: scale(0);
+  }
+
+  .animate-on-scroll.zoom-in.visible {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .animate-on-scroll.zoom-out:not(.visible) {
+    transform: scale(2);
+  }
+
+  .animate-on-scroll.zoom-out.visible {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  .animate-on-scroll.flip-up:not(.visible) {
+    transform: rotateX(180deg);
+  }
+
+  .animate-on-scroll.flip-up.visible {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+
+  .animate-on-scroll.flip-down:not(.visible) {
+    transform: rotateX(-180deg);
+  }
+
+  .animate-on-scroll.flip-down.visible {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+
+  .animate-on-scroll.flip-left:not(.visible) {
+    transform: rotateY(180deg);
+  }
+
+  .animate-on-scroll.flip-left.visible {
+    transform: rotateY(0);
+    opacity: 1;
+  }
+
+  .animate-on-scroll.flip-right:not(.visible) {
+    transform: rotateY(-180deg);
+  }
+
+  .animate-on-scroll.flip-right.visible {
+    transform: rotateY(0);
+    opacity: 1;
+  }
+
+  /* Speed classes for animations */
+  .very-slow {
+    transition-duration: 2s;
+  }
+
+  .slow {
+    transition-duration: 1.5s;
+  }
+
+  .normal {
+    /* Default transition duration is 0.5s */
+  }
+
+  .fast {
+    transition-duration: 0.3s;
+  }
+
+  .very-fast {
+    transition-duration: 0.2s;
+  }
+
+  /* Delay classes for animations */
+  .delay-very-slow {
+    transition-delay: 1s;
+  }
+
+  .delay-slow {
+    transition-delay: 0.7s;
+  }
+
+  .delay-normal {
+    /* Default transition delay is 0s */
+  }
+
+  .delay-fast {
+    transition-delay: 0.2s;
+  }
+
+  .delay-very-fast {
+    transition-delay: 0.1s;
+  }
+</style>
+
+<script>
+  // Get all elements with the "animate-on-scroll" class
+  const elements = document.querySelectorAll(".animate-on-scroll");
+
+  // Callback function for the Intersection Observer
+  const handleIntersection = (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Add the "visible" class to trigger the animation
+        entry.target.classList.add("visible");
+
+        // We don't stop observing the element, so the animation can play again on subsequent scrolls
+        // observer.unobserve(entry.target);
+      } else {
+        // If the element is not intersecting, remove the "visible" class to reset the animation
+        entry.target.classList.remove("visible");
+      }
+    });
+  };
+
+  // Create the Intersection Observer instance
+  const observer = new IntersectionObserver(handleIntersection, {
+    threshold: 0.5, // Adjust this value to control when the animations trigger
+  });
+
+  // Observe all elements with the "animate-on-scroll" class
+  elements.forEach((element) => {
+    observer.observe(element);
+  });
+</script>
