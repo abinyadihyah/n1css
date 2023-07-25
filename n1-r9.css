@@ -2234,7 +2234,8 @@ h6 {
 .space-x__xxl,
 .space-x__xxxl {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
 }
 .space-y__xs,
 .space-y__s,
@@ -2245,8 +2246,8 @@ h6 {
 .space-y__xxl,
 .space-y__xxxl {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  
 }
 .space-x__xs {
   column-gap: 0.25rem;
@@ -5521,7 +5522,9 @@ h6 {
   .lg\:space-x__xxl,
   .lg\:space-x__xxxl {
     display: flex;
-    flex-direction: column;
+        flex-direction: row;
+    align-items: center;
+   
   }
   .lg\:space-y__xs,
   .lg\:space-y__s,
@@ -5532,8 +5535,8 @@ h6 {
   .lg\:space-y__xxl,
   .lg\:space-y__xxxl {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+     flex-direction: column;
+
   }
   .lg\:space-x__xs {
     column-gap: 0.25rem;
@@ -8273,7 +8276,9 @@ h6 {
   .md\:space-x__xxl,
   .md\:space-x__xxxl {
     display: flex;
-    flex-direction: column;
+        flex-direction: row;
+    align-items: center;
+  
   }
   .md\:space-y__xs,
   .md\:space-y__s,
@@ -8284,8 +8289,8 @@ h6 {
   .md\:space-y__xxl,
   .md\:space-y__xxxl {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+      flex-direction: column;
+
   }
   .md\:space-x__xs {
     column-gap: 0.25rem;
@@ -11042,7 +11047,9 @@ h6 {
   .sm\:space-x__xxl,
   .sm\:space-x__xxxl {
     display: flex;
-    flex-direction: column;
+        flex-direction: row;
+    align-items: center;
+    
   }
   .sm\:space-y__xs,
   .sm\:space-y__s,
@@ -11053,8 +11060,7 @@ h6 {
   .sm\:space-y__xxl,
   .sm\:space-y__xxxl {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+flex-direction: column;
   }
   .sm\:space-x__xs {
     column-gap: 0.25rem;
@@ -13810,7 +13816,9 @@ h6 {
   .xs\:space-x__xxl,
   .xs\:space-x__xxxl {
     display: flex;
-    flex-direction: column;
+      flex-direction: row;
+    align-items: center;
+   
   }
   .xs\:space-y__xs,
   .xs\:space-y__s,
@@ -13821,8 +13829,8 @@ h6 {
   .xs\:space-y__xxl,
   .xs\:space-y__xxxl {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+     flex-direction: column;
+  
   }
   .xs\:space-x__xs {
     column-gap: 0.25rem;
