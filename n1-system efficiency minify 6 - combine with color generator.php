@@ -1,9 +1,5 @@
     <?php
 
-
-
-
-
     //////////////////// ACF Theme Variable Getter ////////////////////
 
     // Screen Size For Fluid Checkpoint
@@ -69,16 +65,11 @@
     $side_padding = get_field('content_side_padding', 'option');
 
 
-
-
-
     //Animation field
     $speed_base = floatval(get_field('animation_speed', 'option'));
     $speed_slowest = floatval(get_field('animation_slowest_speed', 'option'));
     $speed_fastest = floatval(get_field('animation_fastest_speed', 'option'));
     $delay_base = floatval(get_field('delay_duration', 'option'));
-
-
 
     //Social Media Display Setting
     $display_none = "display:none!important;";
@@ -92,10 +83,6 @@
     $tiktok = get_field('show_tiktok', 'option');
     $discord = get_field('show_discord', 'option');
     $github = get_field('show_github', 'option');
-
-
-
-
 
     //////////////////// Fluid Typography ////////////////////
 
@@ -143,14 +130,7 @@
         $fontClampPreferValue['fontPrefer' . ucfirst($size)] = round($fontClampVwPreferValue['fontVw' . ucfirst($size)], 3) . 'vw + ' . round($fontClampRemPreferValue['fontRem' . ucfirst($size)], 3) . 'px';
     };
 
-
-
-
-
     //////////////////// Fluid Spacing ////////////////////
-
-
-
     // Calculate Desktop Spacing Sizes
     $spacingSizesDesktop = [
         // 'xxs' => $spacingBaseDesktop / ($spacingRatioDesktop ** 4),
@@ -179,8 +159,6 @@
         // 'xxxxl' => $spacingBaseMobile * ($spacingRatioMobile ** 6),
     ];
 
-
-
     //Spacing Clamp Prefer Value
     $spacingClampRemPreferValue = [];
     $spacingClampVwPreferValue = [];
@@ -196,11 +174,7 @@
         $spacingClampPreferValue['spacingPrefer' . ucfirst($size)] = round($spacingClampVwPreferValue['spacingVw' . ucfirst($size)], 3) . 'vw + ' . round($spacingClampRemPreferValue['spacingRem' . ucfirst($size)], 3) . 'px';
     };
 
-
-
     //////////////////// Color Shade Generator ////////////////////
-
-
     //HEX to HSL
 
     function hex_to_hsl($hex)
@@ -264,13 +238,7 @@
     $slatecolor = hex_to_hsl($slate_600);
     $darkmodecolor = hex_to_hsl($hexdarkmodedarkest);
 
-
-
-
     //////////////////// Auto Generate 9 Shade Script ////////////////////
-
-
-
 
     function calculate_lightness_and_darkness_steps($hsl, $max_lightness, $min_darkness)
     {
@@ -301,14 +269,12 @@
         return array($lightness_values, $darkness_values, $transparency_values);
     }
 
-
     //Listing
     $original_hsl1 = $primarycolor;
     $original_hsl2 = $secondarycolor;
     $original_hsl3 = $tertiarycolor;
     $max_lightness = 98;
     $min_darkness = 18;
-
 
     // Primary Color Listing
     list($lightness_values1, $darkness_values1, $transparency_values1) = calculate_lightness_and_darkness_steps($original_hsl1, $max_lightness, $min_darkness);
@@ -339,20 +305,7 @@
     }
 
 
-
-
-
-
-
-
-
     ?>
-
-
-
-
-
-
     <style>
         :root {
             /* Desktop Font Sizes */
@@ -375,17 +328,11 @@
             --line-height: <?php echo $line_height_paragraph; ?>;
             --line-height-heading: <?php echo $line_height_heading; ?>;
 
-
-
-
-
             /* Layout */
             --header-height: <?php echo $header_height ?>px;
             --header-height-on-mobile: <?php echo $header_height_mobile ?>px;
             --container-size: <?php echo $container_size; ?>px;
             --side-padding: <?php echo $side_padding; ?>px;
-
-
 
             /* Color Slate */
             --slate-100: <?php echo $slate_100; ?>;
@@ -459,8 +406,6 @@
             --tertiary-opacity-20: <?php echo $transparency_values3[1]; ?>;
             --tertiary-opacity-10: <?php echo $transparency_values3[0]; ?>;
 
-
-
             /* Color Dark Mode */
             --dark-mode-900: <?php echo $dm_slate_900 ?>;
             --dark-mode-800: <?php echo $dm_slate_800 ?>;
@@ -481,8 +426,6 @@
             --dark-mode-opacity-70: <?php echo $transparency_levels[7]; ?>;
             --dark-mode-opacity-80: <?php echo $transparency_levels[8]; ?>;
             --dark-mode-opacity-90: <?php echo $transparency_levels[9]; ?>;
-
-
 
             /* Spacing */
             /* Desktop Spacing Sizes */
@@ -593,12 +536,11 @@
         }
     </style>
 
-
     <script>
         // Animation Framework Start //
-
         // Function to initialize the Intersection Observer
         const initIntersectionObserver = () => {
+
             // Get all elements with the "animate" class
             const elements = document.querySelectorAll(".animate");
 
@@ -631,6 +573,5 @@
 
         // Add event listener for the "load" event
         window.addEventListener("load", initIntersectionObserver);
-
         // Animation Framework End //
     </script>
