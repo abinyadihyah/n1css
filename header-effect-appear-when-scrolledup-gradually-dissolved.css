@@ -1,0 +1,6 @@
+.header {
+  height: 100px;
+  position: sticky;
+  background-color: #ccc;
+  top: 0;
+}
